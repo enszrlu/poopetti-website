@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💩 Poopetti: The Ultimate Poop Animation Library! 💩
 
-## Getting Started
+Welcome to **Poopetti**, a lightweight, fun-filled library that brings the joy of animated poop emojis to your web applications! 🎉
 
-First, run the development server:
+## Are You Drowning in User Incompetence? Poopetti to the Rescue! 💩🦸‍♂️
+
+- 🤦‍♂️ Tired of users who can't tell their mouse from their elbow?
+- 😤 Frustrated by folks who fail at filling out forms faster than you can say "RTFM"?
+- 🙄 Sick of seeing users navigate your perfectly designed UI like they're wearing a blindfold?
+
+Fear not, fellow developer! **Poopetti** is here to save your sanity and let those lovable dimwits know they've royally messed up!
+
+With **Poopetti**, you can:
+
+- 🌧️ **Rain Poop**: Rain down a poop storm to really drive home the point of their epic fail!
+- 🎉 **Poopetti**: Celebrate their incompetence with a majestic burst of poop confetti!
+
+Why use boring error messages when you can literally shower your users with 💩? Poopetti: Because sometimes, subtle just doesn't cut it!
+
+## Installation: Let's Get This 💩 Started!
 
 ```bash
-npm run dev
+npm install poopetti
 # or
-yarn dev
+yarn add poopetti
 # or
-pnpm dev
+pnpm add poopetti
 # or
-bun dev
+bun add poopetti
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage: Time to Raise a Stink!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Here's how to use **Poopetti** in your project:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```javascript
+import { rainPoop, poopetti } from 'poopetti';
 
-## Learn More
+// Make it rain poop
+rainPoop();
 
-To learn more about Next.js, take a look at the following resources:
+// Make it rain poop in your style!
+rainPoop({
+  emoji: '💩',
+  duration: 5000,
+  density: 100,
+});
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+// Burst some poop!
+poopetti();
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+// Burst some poop in your style!
+poopetti({
+  emoji: '💩',
+  duration: 3000,
+  density: 50,
+  radius: 200,
+});
+```
 
-## Deploy on Vercel
+## API: The Poop Deck (Where All the Magic Happens)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### rainPoop(options)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Option   | Type   | Default | Description                                                                |
+| -------- | ------ | ------- | -------------------------------------------------------------------------- |
+| emoji    | string | 💩      | The emoji to rain (can be any emoji, but why would you use anything else?) |
+| duration | number | 5000    | Duration of the poop rain in milliseconds                                  |
+| density  | number | 50      | How much poop do you want? More means more poop!                           |
+
+### poopetti(options)
+
+| Option   | Type   | Default | Description                                        |
+| -------- | ------ | ------- | -------------------------------------------------- |
+| emoji    | string | 💩      | The emoji to burst (again, why change perfection?) |
+| duration | number | 1500    | Duration of the poop explosion in milliseconds     |
+| density  | number | 50      | How explosive should your poop be?                 |
+| radius   | number | auto    | The radius of the poop explosion                   |
+
+## Contributing
+
+Feel free to contribute to this pile of... code. Pull requests are welcome.
+
+## License
+
+MIT License - Because even poop should be free!
+
+---
+
+Remember, with great poop comes great responsibility. Use **Poopetti** wisely, and may your code always be as smooth as... well, you know. 💩✨
