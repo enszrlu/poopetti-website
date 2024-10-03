@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://poopetti.vercel.app/
+
+# Sitemaps
+Sitemap: https://poopetti.vercel.app/sitemap.xml
