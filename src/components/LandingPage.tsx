@@ -52,7 +52,7 @@ export default function LandingPage() {
         Mainly focused on 💩 emoji.
       </p>
 
-      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+      <div className="max-w-screen md:max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-orange-800 mb-6">Try it out!</h2>
 
         <section className="space-y-6">
@@ -64,7 +64,7 @@ export default function LandingPage() {
               id="emoji-select"
               value={emoji}
               onValueChange={setEmoji}
-              className="flex space-x-4 mt-2"
+              className="grid grid-cols-3 md:grid-cols-4 gap-4 mt-2"
             >
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="💩" id="poop" />
