@@ -50,9 +50,9 @@ export const metadata: Metadata = {
   },
   applicationName: 'Poopetti',
   icons: {
-    icon: 'https://poopetti.vercel.app/icon.png',
-    shortcut: 'https://poopetti.vercel.app/icon.png',
-    apple: 'https://poopetti.vercel.app/icon.png',
+    icon: 'https://poopetti.vercel.app/icon.jpg',
+    shortcut: 'https://poopetti.vercel.app/icon.jpg',
+    apple: 'https://poopetti.vercel.app/icon.jpg',
   },
 };
 
