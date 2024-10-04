@@ -71,7 +71,9 @@ export default function RootLayout({
           data-website-id="0ce10c19-3150-4b74-afa5-46d6380c4262"
         />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-orange-50`}
+      >
         <div className="min-h-screen text-foreground px-4 bg-orange-50 flex flex-col">
           <Navbar />
           {children}
