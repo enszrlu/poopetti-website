@@ -18,13 +18,13 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://poopetti.vercel.app/'),
+  metadataBase: new URL('https://poopetti.com/'),
   title: 'Poopetti',
   description: 'A Lightweight Animated Emojis Library, mainly focused on Poop Emoji',
   openGraph: {
     images: [
       {
-        url: 'https://poopetti.vercel.app/poopetti.png',
+        url: 'https://poopetti.com/poopetti.png',
         width: 1200,
         height: 630,
         alt: 'Poopetti - A Lightweight Animated Emojis Library, mainly focused on Poop Emoji',
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
     siteName: 'Poopetti',
     title: 'Poopetti',
     description: 'A Lightweight Animated Emojis Library, mainly focused on Poop Emoji',
-    url: 'https://poopetti.vercel.app/',
+    url: 'https://poopetti.com/',
     locale: 'en_US',
   },
   twitter: {
-    images: 'https://poopetti.vercel.app/poopetti.png',
+    images: 'https://poopetti.com/poopetti.png',
     site: '@AlexZDevs',
     creator: '@AlexZDevs',
     title: 'Poopetti',
@@ -47,13 +47,19 @@ export const metadata: Metadata = {
   },
   appleWebApp: {
     title: 'Poopetti',
-    startupImage: 'https://poopetti.vercel.app/poopetti.png',
+    startupImage: 'https://poopetti.com/poopetti.png',
   },
   applicationName: 'Poopetti',
   icons: {
-    icon: 'https://poopetti.vercel.app/icon.jpg',
-    shortcut: 'https://poopetti.vercel.app/icon.jpg',
-    apple: 'https://poopetti.vercel.app/icon.jpg',
+    icon: 'https://poopetti.com/icon.jpg',
+    shortcut: 'https://poopetti.com/icon.jpg',
+    apple: 'https://poopetti.com/icon.jpg',
+  },
+  alternates: {
+    canonical: `https://poopetti.vercel.app`,
+    types: {
+      'text/html': 'https://www.poopetti.com',
+    },
   },
 };
 
