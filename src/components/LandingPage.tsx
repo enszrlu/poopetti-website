@@ -13,7 +13,7 @@ import CopyCode from './CopyCode';
 export default function LandingPage() {
   const [emoji, setEmoji] = useState('💩');
   const [customEmoji, setCustomEmoji] = useState('');
-  const [density, setDensity] = useState(50);
+  const [density, setDensity] = useState(200);
   const [duration, setDuration] = useState(3000);
   const [radius, setRadius] = useState(0);
   const DEFAULT_RADIUS = useRef(300);
