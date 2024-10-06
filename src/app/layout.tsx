@@ -18,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://poopetti.com/'),
+  metadataBase: new URL('https://poopetti.com'),
   title: 'Poopetti',
   description: 'A Lightweight Animated Emojis Library, mainly focused on Poop Emoji',
   openGraph: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: 'Poopetti',
     title: 'Poopetti',
     description: 'A Lightweight Animated Emojis Library, mainly focused on Poop Emoji',
-    url: 'https://poopetti.com/',
+    url: 'https://poopetti.com',
     locale: 'en_US',
   },
   twitter: {
@@ -56,10 +56,7 @@ export const metadata: Metadata = {
     apple: 'https://poopetti.com/icon.jpg',
   },
   alternates: {
-    canonical: `https://poopetti.vercel.app`,
-    types: {
-      'text/html': 'https://www.poopetti.com',
-    },
+    canonical: `https://www.poopetti.com`,
   },
 };
 
