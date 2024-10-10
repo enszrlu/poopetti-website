@@ -70,6 +70,13 @@ rainPoop({
   density: 100,
 });
 
+// Make it rain poop in your style!
+rainPoop({
+  emoji: ['💩', '😃', '😂', '😍', '😡', '😴', '😷', '😵', '😳', '😱'],
+  duration: 10000,
+  density: 500,
+});
+
 // Burst some poop!
 poopetti();
 
@@ -96,8 +103,10 @@ radius: 200,
                 <TableBody>
                   <TableRow>
                     <TableCell>emoji</TableCell>
-                    <TableCell>string</TableCell>
-                    <TableCell>The emoji to rain (default: 💩)</TableCell>
+                    <TableCell>string or string[]</TableCell>
+                    <TableCell>
+                      The emoji to rain (default: 💩) or an array of emojis to rain
+                    </TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell>duration</TableCell>

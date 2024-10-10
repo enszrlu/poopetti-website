@@ -2487,10 +2487,10 @@ pirates@^4.0.1:
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.6.tgz#3018ae32ecfcff6c29ba2267cbf21166ac1f36b9"
   integrity sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==
 
-poopetti@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/poopetti/-/poopetti-1.0.0.tgz#77239807752f3a80bc657b21b4b17083b760e03d"
-  integrity sha512-LKUlFSUFFt/fxkxJalcGxwX22Vlgnyy7q1vZRxULX+2ksCumFevPMvhas5b64BMVuaSJ6cyim94c5y0PnuVOfA==
+poopetti@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/poopetti/-/poopetti-1.1.0.tgz#be2d72c7828297048c25c9be413f59b72abdac6c"
+  integrity sha512-ouybv2t0wVDHuvjUnjfi0lWdflGdR/bJwhOSXgcfT7f0li1DVBKfrp2pu9EY7fuQadOqD9sRFE36tVwdZkHi9w==
 
 possible-typed-array-names@^1.0.0:
   version "1.0.0"

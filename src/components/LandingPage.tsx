@@ -43,6 +43,14 @@ export default function LandingPage() {
     });
   };
 
+  const handleRainAllEmojis = () => {
+    rainPoop({
+      emoji: ['💩', '🌟', '🎉', '🍕', emoji === 'custom' ? customEmoji : emoji],
+      duration,
+      density,
+    });
+  };
+
   return (
     <main className="container mx-auto mt-12 px-4 flex-1 h-full flex flex-col gap-10">
       <h1 className="text-5xl font-bold text-center text-orange-800">Poopetti</h1>
@@ -157,6 +165,12 @@ export default function LandingPage() {
               Pop a Poopetti
             </Button>
           </div>
+          <Button
+            onClick={handleRainAllEmojis}
+            className="flex-1 w-full bg-orange-700 hover:bg-orange-800 text-white"
+          >
+            Rain All Emojis
+          </Button>
         </section>
       </div>
 
