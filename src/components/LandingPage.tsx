@@ -9,6 +9,13 @@ import { Slider } from '@/components/ui/slider';
 import { rainPoop, poopetti } from 'poopetti';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import CopyCode from './CopyCode';
+import { Separator } from './ui/separator';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 
 export default function LandingPage() {
   const [emoji, setEmoji] = useState('💩');
@@ -48,6 +55,16 @@ export default function LandingPage() {
       emoji: ['💩', '🌟', '🎉', '🍕', emoji === 'custom' ? customEmoji : emoji],
       duration,
       density,
+    });
+  };
+
+  const handlePinata = () => {
+    poopetti({
+      emoji: emoji === 'custom' ? customEmoji : emoji,
+      duration,
+      density,
+      radius,
+      content: ['💩', '🌟', '🎉', '🍕', emoji === 'custom' ? customEmoji : emoji],
     });
   };
 
@@ -165,12 +182,45 @@ export default function LandingPage() {
               Pop a Poopetti
             </Button>
           </div>
-          <Button
-            onClick={handleRainAllEmojis}
-            className="flex-1 w-full bg-orange-700 hover:bg-orange-800 text-white"
-          >
-            Rain All Emojis
-          </Button>
+          <Separator />
+          <div className="flex gap-2 flex-col">
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Button
+                    onClick={handleRainAllEmojis}
+                    className="flex-1 w-full bg-orange-700 hover:bg-orange-800 text-white"
+                  >
+                    Rain All Emojis
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>
+                    Rain all emojis, this functionality can be achieved providing array of
+                    emojis to rainPoop function.
+                  </p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <Button
+                    onClick={handlePinata}
+                    className="flex-1 w-full bg-orange-700 hover:bg-orange-800 text-white"
+                  >
+                    Pop a Piñata Poopetti
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>
+                    Burst a piñata with emojis, this functionality can be achieved
+                    providing array of emojis to poopetti function with content prop.
+                  </p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </div>
         </section>
       </div>
 

@@ -86,7 +86,13 @@ poopetti({
   duration: 3000,
   density: 50,
 radius: 200,
-});`}
+});
+
+// Burst some poop in your style with Piñata style!
+poopetti({
+  content: ['💩', '🔥', '⭐️'],
+});
+`}
               />
             </div>
 
@@ -158,6 +164,11 @@ radius: 200,
                     <TableCell>
                       The radius of the poop explosion (default: auto)
                     </TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell>content</TableCell>
+                    <TableCell>string or string[]</TableCell>
+                    <TableCell>The content of the poop explosion (default: 💩)</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
