@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     apple: 'https://poopetti.com/icon.jpg',
   },
   alternates: {
-    canonical: `https://www.poopetti.com`,
+    canonical: `https://poopetti.com`,
   },
 };
 
